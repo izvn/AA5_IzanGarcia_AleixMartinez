@@ -3615,21 +3615,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 187911120}
     m_Modifications:
+    - target: {fileID: 5127448937572358031, guid: e4f62d5abc5742c4eabbbf96fe54193c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c289a2376e8fe8b4f89490c1c49db25a, type: 2}
     - target: {fileID: 5597067459296003245, guid: e4f62d5abc5742c4eabbbf96fe54193c, type: 3}
       propertyPath: m_Name
       value: PT_River_Rock_Pile_02_LOD0
       objectReference: {fileID: 0}
     - target: {fileID: 7674060271722496062, guid: e4f62d5abc5742c4eabbbf96fe54193c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 25.07
       objectReference: {fileID: 0}
     - target: {fileID: 7674060271722496062, guid: e4f62d5abc5742c4eabbbf96fe54193c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 6.48
       objectReference: {fileID: 0}
     - target: {fileID: 7674060271722496062, guid: e4f62d5abc5742c4eabbbf96fe54193c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.045
       objectReference: {fileID: 0}
     - target: {fileID: 7674060271722496062, guid: e4f62d5abc5742c4eabbbf96fe54193c, type: 3}
       propertyPath: m_LocalRotation.w
