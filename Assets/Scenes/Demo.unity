@@ -2624,6 +2624,7 @@ GameObject:
   - component: {fileID: 1589245843}
   - component: {fileID: 1589245846}
   - component: {fileID: 1589245847}
+  - component: {fileID: 1589245848}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2742,7 +2743,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -2763,6 +2764,24 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1589245848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589245842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344680113d6175349ab03bca42ff72cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PostProcessController
+  matVignette: {fileID: 2100000, guid: 11e19d14b8dab854f8f92d427a67e6c3, type: 2}
+  matChromatic: {fileID: 2100000, guid: 9407962c01002594bbbf13ca4c6cce71, type: 2}
+  matGradient: {fileID: 2100000, guid: 432226d3a3f57e744939f009dd613ab9, type: 2}
+  matDistortion: {fileID: 2100000, guid: b4b7ffc1a475d7e42a98f4e789da89a0, type: 2}
+  matCRT: {fileID: 2100000, guid: d13097505dd2ac64eb1c7e7ca22c8b42, type: 2}
+  matPixelated: {fileID: 2100000, guid: 831442bfd061aab489562e6863b99708, type: 2}
 --- !u!1001 &1590409431
 PrefabInstance:
   m_ObjectHideFlags: 0
