@@ -11,7 +11,8 @@ public class PostProcessController : MonoBehaviour
     public Material matCRT;
     public Material matPixelated;
 
-    // Solo usamos el Keyword, sin la propiedad Float que daba error
+   
+
     private string keyword = "EFFECT_ON";
 
     void Update()
@@ -30,7 +31,7 @@ public class PostProcessController : MonoBehaviour
     {
         if (mat == null) return;
 
-        // Si está encendido, lo apaga. Si está apagado, lo enciende.
+        // apagar/encender
         if (mat.IsKeywordEnabled(keyword))
         {
             mat.DisableKeyword(keyword);
